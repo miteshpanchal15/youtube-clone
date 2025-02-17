@@ -1,0 +1,25 @@
+p {
+    font-family: Roboto, Arial;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+body {
+    /* This style below will be inherited  */
+    font-family: Roboto, Arial;
+    margin: 0;
+    padding-top: 80px;
+    padding-left: 95px;
+    padding-right: 25px;
+    background-color: rgb(247, 247, 247);
+}
+
+@media (min-width: 1200.1px) {
+    body {
+        margin-left:210px;
+    }
+}
+
+/* Whenever you are stuck in a problem and want a solution about it, just give prompt or input to google and you will get solution of it  */
+
+/* example: just search like 'CSS text don't wrap' and it will give us solution like 'white-space: nowrap'     */
